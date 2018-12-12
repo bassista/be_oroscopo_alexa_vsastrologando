@@ -1,0 +1,21 @@
+{
+  "name": "oroscopo-skill",
+  "version": "1.0.0",
+  "description": "back-end per la gestione della skill alexa oroscopo",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cheerio": "1.0.0-rc.2",
+    "request": "2.88.0",
+    "dateformat": "3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "express": "4.16.3",
+    "http": "0.0.0"
+  },
+  "keywords": []
+}
